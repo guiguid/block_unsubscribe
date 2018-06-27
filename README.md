@@ -1,6 +1,8 @@
 # block_unsubscribe
 Automatic email unsubscribe script
 
+This script scan your imap server DIR, and for each **unread** message try to self unsubscribe, or open an external browser if it failed and you wants (ext_limit)
+
 ##Usage :
 
 ./unsubscribe2.pl --user user --server server [--password password] [--port 993] [--nossl] [--uid] [--ext_limit 10] [--dir INBOX]
